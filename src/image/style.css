@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Myriad;
+	src: url(../../fonts/MyriadPro-Bold.woff2);
+	font-weight: 400;
+}
+@font-face {
+	font-family:  Myriad;
+	src: url(../../fonts/MyriadPro-Light.woff2);
+	font-weight: 100;
+}
+@font-face {
+	font-family:  Myriad;
+	src: url(../../fonts/MyriadPro-Regular.woff2);
+	font-weight: 300;
+}
+body {
+	font-family: Myriad;
+	font-weight: 300;
+	background-image: (url(./bg.jpg));
+	background-color: aqua;
+}
